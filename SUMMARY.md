@@ -28,6 +28,7 @@
 * [HTTP Response Codes](the-basics-of-web/http-response-codes.md)
 * [HTTP Headers](the-basics-of-web/http-headers/README.md)
   * [AWS S3 Buckets Headers](the-basics-of-web/http-headers/aws-s3-buckets-headers.md)
+* [HTTP Cookies](the-basics-of-web/http-cookies.md)
 * [Encoding](the-basics-of-web/encoding/README.md)
   * [URL encoding](the-basics-of-web/encoding/url-encoding.md)
   * [HTML encoding](the-basics-of-web/encoding/html-encoding.md)
@@ -36,7 +37,6 @@
 * [Web Browsers](the-basics-of-web/web-browsers/README.md)
   * [Same-Origin Policy (SOP)](the-basics-of-web/web-browsers/same-origin-policy-sop.md)
   * [Content Security Policy (CSP)](the-basics-of-web/web-browsers/content-security-policy-csp.md)
-  * [HTTP Cookies](the-basics-of-web/web-browsers/http-cookies.md)
   * [Iframe Sandbox](the-basics-of-web/web-browsers/iframe-sandbox.md)
 * [Web Proxies](the-basics-of-web/web-proxies.md)
 
