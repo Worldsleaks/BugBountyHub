@@ -8,7 +8,8 @@
 
 ## 🕸️ PENTESTING WEB
 
-* [Information Gathering](pentesting-web/information-gathering.md)
+* [Information Gathering](pentesting-web/information-gathering/README.md)
+  * [Enumerating ASN and IP blocks](pentesting-web/information-gathering/enumerating-asn-and-ip-blocks.md)
 * [Enumeration](pentesting-web/enumeration/README.md)
   * [Subdomain enumeration](pentesting-web/enumeration/subdomain-enumeration.md)
   * [Fuzzing](pentesting-web/enumeration/fuzzing.md)
