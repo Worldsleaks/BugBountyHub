@@ -10,6 +10,7 @@
 
 * [Information Gathering](pentesting-web/information-gathering/README.md)
   * [Enumerating ASN and IP blocks](pentesting-web/information-gathering/enumerating-asn-and-ip-blocks.md)
+  * [Reverse IP Lookup](pentesting-web/information-gathering/reverse-ip-lookup.md)
 * [Enumeration](pentesting-web/enumeration/README.md)
   * [Subdomain enumeration](pentesting-web/enumeration/subdomain-enumeration.md)
   * [Fuzzing](pentesting-web/enumeration/fuzzing.md)
