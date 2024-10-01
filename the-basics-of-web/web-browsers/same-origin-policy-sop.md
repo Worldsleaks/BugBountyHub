@@ -15,7 +15,7 @@ example.com -> Hostname
 
 Example of a SOP violation:
 
-<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption><p>SOP violation</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1).png" alt=""><figcaption><p>SOP violation</p></figcaption></figure>
 
 Rules for interactions between different origins:
 
