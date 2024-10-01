@@ -22,6 +22,7 @@
 * [Business Logic Flaws](pentesting-web/business-logic-flaws.md)
 * [Evading WAFs](pentesting-web/evading-wafs.md)
 * [Reporting](pentesting-web/reporting.md)
+* [One Liners](pentesting-web/one-liners.md)
 
 ## 🐣 THE BASICS OF WEB
 
