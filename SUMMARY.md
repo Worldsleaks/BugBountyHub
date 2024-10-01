@@ -37,7 +37,7 @@
 * [Web Browsers](the-basics-of-web/web-browsers/README.md)
   * [Same-Origin Policy (SOP)](the-basics-of-web/web-browsers/same-origin-policy-sop.md)
   * [Content Security Policy (CSP)](the-basics-of-web/web-browsers/content-security-policy-csp.md)
-  * [Iframe Sandbox](the-basics-of-web/web-browsers/iframe-sandbox.md)
+  * [Subresource Integrity Check (SIC)](the-basics-of-web/web-browsers/subresource-integrity-check-sic.md)
 * [Web Proxies](the-basics-of-web/web-proxies.md)
 
 ## 📚 RESOURCES
