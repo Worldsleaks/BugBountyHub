@@ -6,7 +6,7 @@ In the context of the ever-evolving web security landscape, web browsers have ex
 
 The following squeme gives a high-level overview of core browser components:
 
-<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption><p>High-level overview of a browser's internals</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption><p>High-level overview of a browser's internals</p></figcaption></figure>
 
 ### 1. User Interface
 
