@@ -123,3 +123,85 @@ Example:
 ```bash
 Expires: Wed, 21 Oct 2023 07:28:00 GMT
 ```
+
+## 13. Sec-GPC
+
+Signals that the user requests not to have their personal data sold or shared, in line with privacy regulations (like CCPA).
+
+Example:
+
+```bash
+Sec-GPC: 1    # Respect the user's privacy preferences and avoid tracking
+Sec-GPC: 0    # User is not requesting any special privacy protections
+```
+
+## 14. Accept-Language
+
+Tells the server the preferred language for the content, helping sites serve localized versions.
+
+Example:
+
+```bash
+Accept-Language: en-US,en
+```
+
+## 15. Accept-Encoding
+
+Informs the server which compression formats the browser can handle, allowing faster page loads.
+
+```bash
+Accept-Encoding: gzip, deflate, br
+```
+
+## 16. Date
+
+Provides the **date and time** when the server generated the response, useful for caching and synchronization.
+
+Example:
+
+```bash
+Date: Fri, 04 Oct 2024 08:26:52 GMT
+```
+
+## 17. Server
+
+Identifies the **server software** handling the request, including its version and operating system.
+
+Example:
+
+```bash
+Server: Apache/2.4.41 (Ubuntu)
+```
+
+## 18. Vary
+
+Tells caches that the response may vary depending on the **`Accept-Encoding`** header, ensuring the correct version is delivered (compressed or uncompressed).
+
+Example:
+
+```bash
+Vary: Accept-Encoding    # Server provides different responses based on whether the client accepts compression methods
+```
+
+## 19. Allow
+
+Indicates the **HTTP methods** that the server supports for a particular resource. This header is typically sent in response to a **405 Method Not Allowed** status or in response to an **OPTIONS** request.
+
+Example:
+
+```bash
+Allow: GET, POST, OPTIONS, HEAD
+```
+
+## 20. WWW-Authenticate
+
+Informs the client that it needs to provide authentication credentials to access the requested resource. It is typically sent in response to an **HTTP 401 Unauthorized** status.
+
+Example:
+
+```bash
+WWW-Authenticate: Basic realm="User Login"
+```
+
+
+

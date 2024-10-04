@@ -16,6 +16,8 @@
     * [Active Subdomain Enumeration](pentesting-web/information-gathering/subdomain-enumeration/active-subdomain-enumeration.md)
     * [Passive Subdomain Enumeration](pentesting-web/information-gathering/subdomain-enumeration/passive-subdomain-enumeration.md)
 * [Client-Side Injection Attacks](pentesting-web/client-side-injection-attacks.md)
+* [Server-Side Vulnerabilites](pentesting-web/server-side-vulnerabilites/README.md)
+  * [HTTP Verb Tampering](pentesting-web/server-side-vulnerabilites/http-verb-tampering.md)
 * [Cross-Site Request Forgery Attacks](pentesting-web/cross-site-request-forgery-attacks.md)
 * [Webapp File System Attacks](pentesting-web/webapp-file-system-attacks.md)
 * [Authentication, Authorization & SSO Attacks](pentesting-web/authentication-authorization-and-sso-attacks.md)
