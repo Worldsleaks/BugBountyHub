@@ -18,7 +18,7 @@
     * [Subdomain Permutations](pentesting-web/information-gathering/subdomain-enumeration/subdomain-permutations.md)
     * [Check Alive Subdomains](pentesting-web/information-gathering/subdomain-enumeration/check-alive-subdomains.md)
   * [Subdomain Takeover](pentesting-web/information-gathering/subdomain-takeover.md)
-  * [Directory Fuzzing](pentesting-web/information-gathering/directory-fuzzing.md)
+  * [Fuzzing](pentesting-web/information-gathering/fuzzing.md)
   * [Input Parameters](pentesting-web/information-gathering/input-parameters.md)
   * [Mapping Attack Surface -  Crawling/Spider](pentesting-web/information-gathering/mapping-attack-surface-crawling-spider.md)
   * [Fingerprinting](pentesting-web/information-gathering/fingerprinting.md)
