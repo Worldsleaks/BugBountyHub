@@ -20,6 +20,7 @@
   * [Subdomain Takeover](pentesting-web/information-gathering/subdomain-takeover.md)
   * [Fuzzing](pentesting-web/information-gathering/fuzzing.md)
   * [JavaScript Files](pentesting-web/information-gathering/javascript-files.md)
+  * [Endpoints](pentesting-web/information-gathering/endpoints.md)
   * [Input Parameters](pentesting-web/information-gathering/input-parameters.md)
   * [Mapping Attack Surface -  Crawling/Spider](pentesting-web/information-gathering/mapping-attack-surface-crawling-spider.md)
   * [Fingerprinting](pentesting-web/information-gathering/fingerprinting.md)
