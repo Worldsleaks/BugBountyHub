@@ -24,6 +24,7 @@
   * [Input Parameters](pentesting-web/information-gathering/input-parameters.md)
   * [Mapping Attack Surface -  Crawling/Spider](pentesting-web/information-gathering/mapping-attack-surface-crawling-spider.md)
   * [Fingerprinting](pentesting-web/information-gathering/fingerprinting.md)
+  * [Potential Vulnerabilities - Nuclei](pentesting-web/information-gathering/potential-vulnerabilities-nuclei.md)
 * [Client-Side Injection Attacks](pentesting-web/client-side-injection-attacks.md)
 * [Server-Side Injection Attacks](pentesting-web/server-side-injection-attacks/README.md)
   * [HTTP Verb Tampering](pentesting-web/server-side-injection-attacks/http-verb-tampering.md)
