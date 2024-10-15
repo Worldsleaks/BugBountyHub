@@ -8,7 +8,7 @@ Specifies the domain name of the server that is handling the request.
 
 Example:&#x20;
 
-```bash
+```http
 Host: www.example.com
 ```
 
@@ -18,7 +18,7 @@ Identifies the client's browser or software making the request.
 
 Example:
 
-```bash
+```http
 User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64, x64)
 ```
 
@@ -28,7 +28,7 @@ Indicates the media type of the resource being sent, such as text, images, JSON 
 
 Example:
 
-```bash
+```http
 Content-Type: application/json
 ```
 
@@ -38,7 +38,7 @@ Informs the server what content types the client can understand. Tells the serve
 
 Example:
 
-```bash
+```http
 Accept: application/json
 ```
 
@@ -48,7 +48,7 @@ Indicates the size (in bytes) of the body content in a request or response. Help
 
 Example:
 
-```bash
+```http
 Content-Length: 348
 ```
 
@@ -60,7 +60,7 @@ Critical for session management, user authentication, and security. The `HttpOnl
 
 Example:
 
-```bash
+```http
 Set-Cookie: sessionId=abc123; HttpOnly; Secure
 ```
 
@@ -70,7 +70,7 @@ Indicates the URL of the page that made the request. Used for analytics, logging
 
 Example:
 
-```bash
+```http
 Referer: https://origin.example.com
 ```
 
@@ -80,7 +80,7 @@ Controls whether the network connection stays open or closes after the current r
 
 Example:
 
-```bash
+```http
 Connection: keep-alive
 ```
 
@@ -90,7 +90,7 @@ Helps prevent clickjacking attacks by controlling whether a page can be displaye
 
 Example:
 
-```bash
+```http
 X-Frame-Options: DENY
 ```
 
@@ -100,7 +100,7 @@ Instructs browsers to only communicate with the server over HTTPS, even if the u
 
 Example:
 
-```bash
+```http
 Strict-Transport-Security: max-age=315360000; includeSubDomains
 ```
 
@@ -110,7 +110,7 @@ Provides rules for what types of content (like scripts or styles) the browser is
 
 Example:
 
-```bash
+```http
 Content-Security-Policy: default-src 'self'; script-src 'self' https://trusted-source.com
 ```
 
@@ -120,7 +120,7 @@ Sets an expiration date/time after which the content should no longer be conside
 
 Example:
 
-```bash
+```http
 Expires: Wed, 21 Oct 2023 07:28:00 GMT
 ```
 
@@ -130,7 +130,7 @@ Signals that the user requests not to have their personal data sold or shared, i
 
 Example:
 
-```bash
+```http
 Sec-GPC: 1    # Respect the user's privacy preferences and avoid tracking
 Sec-GPC: 0    # User is not requesting any special privacy protections
 ```
@@ -141,7 +141,7 @@ Tells the server the preferred language for the content, helping sites serve loc
 
 Example:
 
-```bash
+```http
 Accept-Language: en-US,en
 ```
 
@@ -149,7 +149,7 @@ Accept-Language: en-US,en
 
 Informs the server which compression formats the browser can handle, allowing faster page loads.
 
-```bash
+```http
 Accept-Encoding: gzip, deflate, br
 ```
 
@@ -159,7 +159,7 @@ Provides the **date and time** when the server generated the response, useful fo
 
 Example:
 
-```bash
+```http
 Date: Fri, 04 Oct 2024 08:26:52 GMT
 ```
 
@@ -169,7 +169,7 @@ Identifies the **server software** handling the request, including its version a
 
 Example:
 
-```bash
+```http
 Server: Apache/2.4.41 (Ubuntu)
 ```
 
@@ -179,7 +179,7 @@ Tells caches that the response may vary depending on the **`Accept-Encoding`** h
 
 Example:
 
-```bash
+```http
 Vary: Accept-Encoding    # Server provides different responses based on whether the client accepts compression methods
 ```
 
@@ -189,7 +189,7 @@ Indicates the **HTTP methods** that the server supports for a particular resourc
 
 Example:
 
-```bash
+```http
 Allow: GET, POST, OPTIONS, HEAD
 ```
 
@@ -199,7 +199,7 @@ Informs the client that it needs to provide authentication credentials to access
 
 Example:
 
-```bash
+```http
 WWW-Authenticate: Basic realm="User Login"
 ```
 
@@ -207,7 +207,15 @@ WWW-Authenticate: Basic realm="User Login"
 
 The `X-Original-URL` header is typically used in reverse proxy setups to indicate the original URL requested by the client before any modifications by the proxy. This helps the backend server understand the initial request.
 
-```bash
+```http
 X-Original-URL: /admin
+```
+
+## 22. **X-Forwarded-For**
+
+Indicates the original IP address of the client making the request through a proxy or load balancer. This header is useful for identifying the real client IP in cases where the server receives the IP of the proxy instead.
+
+```http
+X-Forwarded-For: 192.168.1.1, 203.0.113.5
 ```
 
