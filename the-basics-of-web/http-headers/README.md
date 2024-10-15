@@ -203,5 +203,11 @@ Example:
 WWW-Authenticate: Basic realm="User Login"
 ```
 
+## 21. X-Original-URL
 
+The `X-Original-URL` header is typically used in reverse proxy setups to indicate the original URL requested by the client before any modifications by the proxy. This helps the backend server understand the initial request.
+
+```bash
+X-Original-URL: /admin
+```
 

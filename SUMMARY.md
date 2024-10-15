@@ -41,6 +41,7 @@
 * [Authentication, Authorization & SSO Attacks](pentesting-web/authentication-authorization-and-sso-attacks.md)
 * [Attacking Serialization](pentesting-web/attacking-serialization.md)
 * [Business Logic Flaws](pentesting-web/business-logic-flaws.md)
+* [Bypass 401 & 403](pentesting-web/bypass-401-and-403.md)
 * [Evading WAFs](pentesting-web/evading-wafs.md)
 * [Reporting](pentesting-web/reporting.md)
 * [One Liners](pentesting-web/one-liners.md)
