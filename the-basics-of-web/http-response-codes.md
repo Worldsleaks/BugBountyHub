@@ -16,7 +16,7 @@ Listed below are some of the most common ones to see:
 * **201 Created**: The request has been fullfilled, resulting in the creation of a new resource.
 * **204 No Content**: The server successfully processed the request, but there is no content to send in the response.
 * **206 Partial Content**: The server is delivering only part of the resource due to a range header sent by the client.
-* 301 Moved Permanently: The requested resource has been permanently moved to a new URL.&#x20;
+* **301 Moved Permanently**: The requested resource has been permanently moved to a new URL.&#x20;
 * **302 Found**: The requested resource resides temporarily at a different URL.
 * **400 Bad Request**: The server could not understand the request due to invalid syntax.&#x20;
 * **401 Unauthorized**: The client must authenticate itself to get the requested response (usually requires login).&#x20;
