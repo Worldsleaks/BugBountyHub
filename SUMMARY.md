@@ -34,6 +34,7 @@
   * [File upload vulnerabilities](pentesting-web/server-side-vulnerabilities/file-upload-vulnerabilities.md)
   * [OS Command Injection](pentesting-web/server-side-vulnerabilities/os-command-injection.md)
   * [SQL Injection](pentesting-web/server-side-vulnerabilities/sql-injection/README.md)
+    * [MySQL Injection](pentesting-web/server-side-vulnerabilities/sql-injection/mysql-injection.md)
     * [SQLi with SQLMap](pentesting-web/server-side-vulnerabilities/sql-injection/sqli-with-sqlmap.md)
 * [Authentication](pentesting-web/authentication.md)
 * [Insecure Direct Object Reference (IDOR)](pentesting-web/insecure-direct-object-reference-idor.md)
